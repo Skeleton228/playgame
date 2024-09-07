@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lobster', sans-serif;
+    background-color: #66a3d2;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: burlywood;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 1900;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+.logo{
+    max-width: 150px;
+    text-align: center;
+}
+a:hover{
+    color: aquamarine;
+    transition: all 300ms ease-in-out;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 210px auto 0 auto;
+    width: 1448px;
+    background-color: antiquewhite;
+}
+.items:first-child{
+    padding-bottom: 70px;
+    
+}
+.items:last-child{
+    padding-top: 70px;
+}
+.infografick{
+    display: flex;
+    margin: 200px auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: burlywood; 
+    width: 1000px;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    margin: 200px auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(247, 181, 95, 0.623); 
+    width: 675px;
+    padding: 20px;
+}
+.card h2{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.photo{
+    position: relative;
+}
+.photo img{
+    margin-right: 50px;
+    z-index: 10px;
+    width: 100px;
+    height: 60px;
+    border-radius: 100%;
+}
+.photo_1 img{
+    margin-right: 50px;
+    z-index: 10px;
+    width: 100px;
+    height: 60px;
+    border-radius: 100%;
+}
+.photo h2{
+    position: static;
+    text-align: left;
+
+    
+}
+.photo_1 h2{
+    text-align: right;
+}
+
+
+.photo_fot{
+    margin-top: 15px;
+    
+}
+.footer{
+    position: absolute;
+}
+.text{
+    margin-top: 20px;
+    text-align: right;
+    height: 200px;
+    background-color: bisque;
+    position: static;
+    
+} 
+.text_center{
+    text-align: center;
+    font-size: 8px;
+}
